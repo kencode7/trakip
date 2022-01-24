@@ -1,0 +1,32 @@
+#image {
+    background-image: url('/assets/images/1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+}
+#image, #gradient {
+    position: fixed;
+    top: 0;
+}
+#image, #gradient {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    max-height: 450px;
+}
+#gradient {
+    background: radial-gradient(transparent 50%, black), linear-gradient(transparent, black);
+    opacity: .67;
+}
+
+#image, #gradient {
+    position: fixed;
+    top: 0;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

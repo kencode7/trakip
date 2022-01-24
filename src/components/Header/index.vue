@@ -280,11 +280,6 @@
             </template>
           </vs-switch>
 
-          <!-- <vs-avatar badge-color="danger" badge-position="top-right">
-            <i class="bx bx-bell"></i>
-
-            <template #badge> 28 </template>
-          </vs-avatar> -->
         </vs-row>
       </template>
     </vs-sidebar>
@@ -316,13 +311,13 @@ export default {
   border-radius: 15px 0 0 15px;
 }
 .backdrop {
-  background-color: rgba(255, 255, 255, 0.3);
-  -webkit-backdrop-filter: saturate(180%) blur(5px);
-  backdrop-filter: saturate(180%) blur(5px);
+  background-color: #ffffffeb;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
 }
 .backdrop-strong {
-  backdrop-filter: saturate(180%) blur(20px) !important;
-  background-color: rgb(255 255 255 / 0%) !important;
+  backdrop-filter: blur(20px) !important;
+  background-color: #ffffffe8 !important;
 }
 .vs-switch-container {
   height: 44px;
