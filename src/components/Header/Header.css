@@ -1,0 +1,35 @@
+/* .sidebar-item-container {
+    border-radius: 15px 0 0 15px;
+  } */
+  .backdrop {
+    background-color: #ffffffeb;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
+  }
+  .backdrop-strong {
+    backdrop-filter: blur(20px) !important;
+    background-color: #ffffffe8 !important;
+  }
+  .vs-switch-container {
+    height: 44px;
+    width: 80px;
+  }
+  .logo-nav {
+      margin-left: 30px;
+  }
+  
+  /* dark styling */
+  [vs-theme="dark"] .vs-navbar-container {
+    background: var(--vs-theme-bg2) !important;
+  }
+  [vs-theme="dark"] .sidebar-item-container {
+    backdrop-filter: none !important;
+    background: var(--vs-theme-bg2) !important;
+  }
+  [vs-theme="dark"] .vs-switch__circle {
+    background: #8080809c;
+  }
+  [vs-theme="dark"] .bi-moon-fill,
+  [vs-theme="dark"] .bi-text-right {
+    color: #ffffffd1 !important;
+}
